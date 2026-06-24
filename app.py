@@ -10,7 +10,7 @@ warnings.filterwarnings("ignore")
 
 st.set_page_config(page_title="Headline Engagement Analysis", layout="wide")
 
-DATA_DIR = "/Users/danng/Downloads/headline_data/datasets/"
+DATA_DIR = "data/"
 
 @st.cache_data
 def load_data():
